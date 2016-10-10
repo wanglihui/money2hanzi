@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "wanglihui.sjz@gmail.com",
+  "homepage": "https://github.com/wanglihui/money2hanzi",
+  "repository" : {
+    "type" : "git",
+     "url" : "https://github.com/wanglihui/money2hanzi.git"
+  },
   "license": "ISC"
 }
