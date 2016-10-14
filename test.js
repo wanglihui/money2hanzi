@@ -8,7 +8,15 @@ let assert = require("assert");
 
 describe('index.js', function() {
   
-  it("should be ok", function() {
-    assert.equal('壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾元整', money2Hanzi.toHanzi(1234567890))
+  it("10011001 => 壹仟零壹万壹仟零壹元整 should be ok", function() {
+    assert.equal('壹仟零壹万壹仟零壹元整', money2Hanzi.toHanzi(10011001))
+  })
+  
+  it("11011011 => 壹仟壹佰零壹万壹仟零壹拾壹元整 should be ok", function() {
+    assert.equal(money2Hanzi.toHanzi(11011011), '壹仟壹佰零壹万壹仟零壹拾壹元整')
+  })
+
+  it("10011001.01 => 壹仟零壹万壹仟零壹元壹分整 should be ok", function() {
+    assert.equal('壹仟零壹万壹仟零壹元壹分整', money2Hanzi.toHanzi(10011001.01))
   })
 })
