@@ -9,6 +9,6 @@ let assert = require("assert");
 describe('index.js', function() {
   
   it("should be ok", function() {
-    assert.equal('壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾零元零角零分整', money2Hanzi.toHanzi(1234567890))
+    assert.equal('壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾元整', money2Hanzi.toHanzi(1234567890))
   })
 })
