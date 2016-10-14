@@ -4,7 +4,7 @@
   "description": "将金额转换为汉子金额书写方式",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "wanglihui.sjz@gmail.com",
   "homepage": "https://github.com/wanglihui/money2hanzi",
