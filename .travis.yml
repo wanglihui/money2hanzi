@@ -6,3 +6,5 @@ node_js:
   - "0.6"
   - "iojs"
   - "4.4.x"
+before_script:
+  - npm install -g mocha
