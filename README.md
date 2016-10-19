@@ -5,8 +5,7 @@
 
 # 状态
 
-![test status](https://travis-ci.org/wanglihui/money2hanzi.svg?branch=master)
-
+[![Build Status](https://travis-ci.org/wanglihui/money2hanzi.svg?branch=master)](https://travis-ci.org/wanglihui/money2hanzi)
 
 # 使用
 ```
