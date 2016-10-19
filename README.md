@@ -4,9 +4,9 @@
 ```
 
 # 状态
-```
+
 ![test status](https://travis-ci.org/wanglihui/money2hanzi.svg?branch=master)
-```
+
 
 # 使用
 ```
