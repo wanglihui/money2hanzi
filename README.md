@@ -3,6 +3,11 @@
  如 1234567890 => 壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾零元零角零分整
 ```
 
+# 状态
+```
+![test status](https://travis-ci.org/wanglihui/money2hanzi.svg?branch=master)
+```
+
 # 使用
 ```
    let money2Hanzi = require("./index");
