@@ -1,7 +1,11 @@
 # 金额转汉子大写金额
 ```
- 如 1234567890 => 壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾零元零角零分整
+ 如 1234567890 => 壹拾贰亿叁仟肆佰伍拾陆万柒仟捌佰玖拾元整
 ```
+
+# 状态
+[![GitHub version](https://badge.fury.io/gh/wanglihui%2Fmoney2hanzi.svg)](https://badge.fury.io/gh/wanglihui%2Fmoney2hanzi)
+[![Build Status](https://travis-ci.org/wanglihui/money2hanzi.svg?branch=master)](https://travis-ci.org/wanglihui/money2hanzi)
 
 # 使用
 ```
