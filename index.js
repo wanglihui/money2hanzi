@@ -34,15 +34,15 @@ exports.toHanzi = function (money) {
     if (num) {
       str = vals[num] + unit + str;
     } else {
-
-      if (idx > 2 && str && !/^零/.test(str)) {
-        str = '零' + str;
+      if (idx > 2 && str && !/^零/.test(str) && str != '元') {
+          str = '零' + str;
       }
 
       if ((idx -2) % 4 == 1) {
         str = unit + str;
       }
     }
+
     if (money <= 0) {
       break;
     }
