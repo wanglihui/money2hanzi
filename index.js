@@ -5,10 +5,10 @@
 
 
 exports.toHanzi = function (money) {
-  if (typeof money != 'number' ) {
+  if (!/^\d+(\.\d{1,2})?$/.test(money)) {
     throw new Error('金额只支持数字格式')
   }
-
+  money = Number(money);
   if (money >= Math.pow(10, 17)) {
     throw new Error('目前只支持Math.pow(10, 17)以内数字转换');
   }
